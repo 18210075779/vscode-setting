@@ -5,8 +5,8 @@
     "editor.wordWrap": "on",
     "editor.minimap.enabled": true,
     "editor.rulers": [
-        100,
-        200
+        200,
+        500
     ],
     // all, bundary, none
     "editor.renderWhitespace": "none",
@@ -75,7 +75,7 @@
     "[vue]": {
         "editor.defaultFormatter": "octref.vetur"
     },
-    "vetur.validation.template": false,
+    "vetur.validation.template": true,
     "editor.quickSuggestions": {
         "strings": true
     },
@@ -92,7 +92,7 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
     "editor.formatOnPaste": true,
-    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatter.html": "prettier",
     "sync.askGistName": false,
     "sync.removeExtensions": true,
     "sync.syncExtensions": true,
